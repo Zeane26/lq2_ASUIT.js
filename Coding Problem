@@ -1,0 +1,78 @@
+let name = prompt("Enter your Name:");
+let address = prompt("Enter your Address:");
+let age = parseInt(prompt("Enter your Age:"));
+let classRole = prompt("Enter your Class Role (Officer, Student, Teacher):");
+let course = prompt("Enter your Course (BSCS, BSM, BAEL):");
+
+if (course === "BSCS") {
+  if (classRole === "Officer") {
+    alert("You are a BSCS Officer.");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  } else if (classRole === "Student") {
+    alert("You are a BSCS Student.");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  } else if (classRole === "Teacher") {
+    alert("You are a BSCS Teacher.");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  } else {
+    alert("Unrecognized class role. Defaulting...");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  }
+
+} else if (course === "BSM") {
+  if (classRole === "Officer") {
+    alert("You are a BSM Officer.");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  } else if (classRole === "Student") {
+    alert("You are a BSM Student.");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  } else if (classRole === "Teacher") {
+    alert("You are a BSM Teacher.");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  } else {
+    alert("Unrecognized class role. Defaulting...");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  }
+
+} else if (course === "BAEL") {
+  if (classRole === "Officer") {
+    alert("You are a BAEL Officer.");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  } else if (classRole === "Student") {
+    alert("You are a BAEL Student.");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  } else if (classRole === "Teacher") {
+    alert("You are a BAEL Teacher.");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  } else {
+    alert("Unrecognized class role. Defaulting...");
+    for (let i = 0; i < Math.floor(age / 4); i++) {
+      console.log(name);
+    }
+  }
+
+} else {
+  alert("Invalid Course! Program will exit.");
+}
